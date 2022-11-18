@@ -1,0 +1,114 @@
+# Loco Gettext template
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Faaborg Museum\n"
+"Report-Msgid-Bugs-To: Translator Name <translations@example.com>\n"
+"POT-Creation-Date: 2015-08-31 14:08+0200\n"
+"POT-Revision-Date: Wed Jan 13 2016 14:39:04 GMT+0100 (Romance Standard Time)\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: \n"
+"Language-Team: Bates <translations@example.com>\n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Textdomain-Support: yesX-Generator: Poedit 1.6.4\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Generator: Loco - https://localise.biz/\n"
+"X-Poedit-SearchPath-0: ."
+
+#: ../navigation.php:15
+msgid "MENU"
+msgstr ""
+
+#: ../navigation.php:51
+msgid "KALENDER"
+msgstr ""
+
+#: ../functions.php:300
+msgid "SPROG"
+msgstr ""
+
+#: ../functions.php:363 ../searchform.php:6 ../searchform.php:10
+msgid "SØG"
+msgstr ""
+
+#: ../functions.php:376 ../footer.php:23
+msgid "Åbent i dag"
+msgstr ""
+
+#: ../functions.php:382
+msgid "AKTUEL UDSTILLING"
+msgstr ""
+
+#: ../functions.php:383
+msgid "AKTUEL UDSTILLING TEKST"
+msgstr ""
+
+#: ../functions.php:390
+msgid "OMVISNINGER I DAG"
+msgstr ""
+
+#: ../functions.php:398 ../footer.php:19
+msgid "Priser"
+msgstr ""
+
+#: ../functions.php:399 ../footer.php:20
+msgid "Priser tekst"
+msgstr ""
+
+#: ../search.php:19
+msgid "Søgeresultat"
+msgstr ""
+
+#: ../footer.php:13
+msgid "SEO Beskrivelse"
+msgstr ""
+
+#: ../footer.php:30
+msgid "Find vej"
+msgstr ""
+
+#: ../footer.php:43
+msgid "Kontakt"
+msgstr ""
+
+#. Name of the template
+msgid "Frontpages"
+msgstr ""
+
+#: ../template-front.php:34
+msgid "AKTUELT"
+msgstr ""
+
+#: ../template-front.php:101
+msgid "OM MUSEET"
+msgstr ""
+
+#. Name of the template
+msgid "Std. page fullwidth"
+msgstr ""
+
+#. Name of the theme
+msgid "Fåborg Museum"
+msgstr ""
+
+#. Theme URI of the theme
+msgid "http://www.faaborgmuseum.dk"
+msgstr ""
+
+#. Author of the theme
+msgid "Bates Y&amp;R"
+msgstr ""
+
+#. Author URI of the theme
+msgid "http://www.bates.dk"
+msgstr ""
