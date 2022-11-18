@@ -20,16 +20,16 @@
 
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'faaborgmuseum' );
+define( 'DB_NAME', 'nuksnuks_dkdev_faaborgmuseum' );
 
 /** Database username */
-define( 'DB_USER', 'root' );
+define( 'DB_USER', 'nuksnuks_dkdev_faaborgmuseum@10.27.48.48' );
 
 /** Database password */
-define( 'DB_PASSWORD', '' );
+define( 'DB_PASSWORD', 'mmoe21team10' );
 
 /** Database hostname */
-define( 'DB_HOST', 'localhost' );
+define( 'DB_HOST', 'https://dbadmin.one.com/' );
 
 /** Database charset to use in creating database tables. */
 define( 'DB_CHARSET', 'utf8mb4' );
