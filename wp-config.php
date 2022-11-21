@@ -26,7 +26,7 @@ define( 'DB_NAME', 'faaborgmuseum' );
 define( 'DB_USER', 'root' );
 
 /** Database password */
-define( 'DB_PASSWORD', 'mmoe21team10' );
+define( 'DB_PASSWORD', '' );
 
 /** Database hostname */
 define( 'DB_HOST', 'localhost' );
