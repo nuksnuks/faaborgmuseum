@@ -10,7 +10,7 @@ header {
 }
 
 .indhold {
- display:none;
+ display:block;
 }
 
 .menu {
@@ -18,5 +18,5 @@ header {
   list-style: none;
 }
 .sub-menu {
-  list-style: none;
+  list-style: ;
 }
