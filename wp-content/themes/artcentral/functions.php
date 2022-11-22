@@ -12,6 +12,18 @@ function load_css()
 
 }
 add_action('wp_enqueue_scripts','load_css');
+//loader javascript
+
+function load_js()
+{
+  wp_register_script('main',get_template_directory_uri(). '/js/main.js','jquery',false,true);
+
+  wp_enqueue_script('main');
+
+
+
+}
+add_action('wp_enqueue_scripts','load_js');
 
 // menu valgmulighed til wordpress
 add_theme_support('menus');
