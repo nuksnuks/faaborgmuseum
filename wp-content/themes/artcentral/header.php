@@ -2,6 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="https://use.typekit.net/pzr1mrq.css">
     <title></title>
     <?php wp_head();?>
   </head>
