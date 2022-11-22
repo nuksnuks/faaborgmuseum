@@ -1,0 +1,22 @@
+a{
+  text-decoration:none;
+}
+
+header {
+  height:70px;
+  length:1080px;
+  background-color: #ff1493;
+
+}
+
+.indhold {
+ display:none;
+}
+
+.menu {
+  display:flex;
+  list-style: none;
+}
+.sub-menu {
+  list-style: none;
+}
