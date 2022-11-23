@@ -28,9 +28,13 @@ header {
   text-decoration: none;
   margin-right: 10px;
 }
+.menu li {
+
+}
 .sub-menu {
   display: none;
   position: absolute;
+
 }
 .sub-menu a{
   color: #000;
@@ -41,7 +45,6 @@ header .menu .menu-item-has-children:hover .sub-menu {
   background-color: #fff;
   color: #000;
   border-radius: 5px;
-}
-header .menu .menu-item-has-children:hover .sub-menu li {
   margin:0;
+  padding:5px 0px 5px 10px;
 }
