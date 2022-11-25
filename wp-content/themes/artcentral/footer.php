@@ -4,10 +4,10 @@
     <p>1. kolonne</p>
   </div>
   <div class="kolonne">
-<p>1. kolonne</p>
+<p>2. kolonne</p>
   </div>
   <div class="kolonne">
-<p>1. kolonne</p>
+<p>3. kolonne</p>
   </div>
 </footer>
 </body>
