@@ -3,5 +3,9 @@
 Template Name: Contact Us
 */
 ?>
-
-Dette er vores kontakt os side
+<div class="row">
+<div class="kontaktform">
+</div>
+<div class="kontaktform">
+</div>
+</div>

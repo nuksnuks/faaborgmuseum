@@ -12,8 +12,37 @@ function load_js() {
   wp_enqueue_script('main');
 }
 add_action('wp_enqueue_scripts','load_js');
-// menu valgmulighed til wordpress
+/**
+ * Register widget area.
+ *
+ * http://codex.wordpress.org/Function_Reference/register_sidebar
+ */
+function nd_dosth_register_sidebars() {
+
+   register_sidebar( array(
+		'name'          => esc_html__( 'Footer Section One', 'nd_dosth' ),
+		'id'            => 'footer-section-one',
+		'description'   => esc_html__( 'Widgets added here would appear inside the first section of the footer', 'nd_dosth' ),
+		'before_widget' => '',
+		'after_widget'  => '',
+		'before_title'  => '',
+		'after_title'   => '',
+    ) );
+
+    register_sidebar( array(
+		'name'          => esc_html__( 'Footer Section Two', 'nd_dosth' ),
+		'id'            => 'footer-section-two',
+		'description'   => esc_html__( 'Widgets added here would appear inside the second section of the footer', 'nd_dosth' ),
+		'before_widget' => '',
+		'after_widget'  => '',
+		'before_title'  => '',
+		'after_title'   => '',
+	) );
+}
+add_action( 'widgets_init', 'nd_dosth_register_sidebars' );
+// menu og widget valgmulighed til wordpress
 add_theme_support('menus');
+add_theme_support( 'widgets' );
 // referer til menu fra header.php
 register_nav_menus(
   array(
