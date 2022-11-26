@@ -11,7 +11,6 @@
     <header>
 <!--<img src=">< ?php the_post_thumbnail_url();?>" alt="" class="logo">-->
       <?php
-
       wp_nav_menu(
         array(
           'theme_location'=> 'menu'
