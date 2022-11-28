@@ -1,14 +1,17 @@
 footer {
-  display: flex;
+  display: block;
   justify-content:center;
-  position: absolute;
+  position: fixed;
+  z-index:-1000;
+
   background-color: #000;
   color: #FFF;
   width: 100%;
-  height: 375px;
+  height: 200px;
   bottom:0;
 }
 .kolonne {
+  display: flex;
   width: 33%;
   text-align: center;
 }

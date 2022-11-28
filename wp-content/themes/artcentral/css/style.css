@@ -1,7 +1,9 @@
 header {
   height: 70px;
-  length: 1080px;
+  width: 100vw;
   background-color: #6E4445;
+  position: fixed;
+  z-index: 1000000;
 }
 
 .indhold {
@@ -70,28 +72,45 @@ body {
   background-color: #ffa100;
   font-family: ligurino, sans-serif;
   weight: normal;
+  height: 10000px;
 }
 
-section {
-  margin: 10px;
+.wp-block-cover video {
+  height: 50px;
+}
+.wp-block-cover .vheader {
+  -webkit-transform: translateY(-100px);
+          transform: translateY(-100px);
+  text-align: left;
+}
+
+section .blog-felt {
+  width: 75%;
+  border: 1px solid #000;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
 }
 
 footer {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: block;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  position: absolute;
+  position: fixed;
+  z-index: -1000;
   background-color: #000;
   color: #FFF;
   width: 100%;
-  height: 375px;
+  height: 200px;
   bottom: 0;
 }
 
 .kolonne {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   width: 33%;
   text-align: center;
 }

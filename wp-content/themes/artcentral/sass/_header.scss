@@ -1,13 +1,14 @@
 header {
   height: 70px;
-  length: 1080px;
+  width: 100vw;
   background-color: #6E4445;
+  //background: linear-gradient(rgba(110,68,69,1)0%, rgba(0, 0,0,0.2) 100%);
+  position: fixed;
+  z-index:1000000;
 }
-
 .indhold {
   display: block;
 }
-
 .menu {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -19,7 +20,6 @@ header {
   padding-top: 20px;
   font-family: ligurino, sans-serif;
 }
-
 .menu a {
   weight:bold;
   color: #fff;
@@ -46,11 +46,6 @@ header {
   display: block;
   margin: 0;
 }
-
-
-
-
-
 .sub-menu a:hover {
   background-color: #6E4445;
   color: #fff;
