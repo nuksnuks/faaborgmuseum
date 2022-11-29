@@ -6,7 +6,6 @@ header {
   z-index: 1000000;
 }
 
-
 .indhold {
   display: block;
 }
@@ -85,7 +84,12 @@ body {
   text-align: left;
 }
 
+section {
+  -webkit-transform: translateY(70px);
+          transform: translateY(70px);
+}
 section .blog-felt {
+  padding-top: 70px;
   width: 75%;
   border: 1px solid #000;
   margin-bottom: 10px;
@@ -102,7 +106,7 @@ footer {
   position: fixed;
   z-index: -1000;
   background-color: #000;
-  color: pink;
+  color: #FFF;
   width: 100%;
   height: 200px;
   bottom: 0;
