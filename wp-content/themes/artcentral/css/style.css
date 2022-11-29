@@ -89,7 +89,6 @@ section {
           transform: translateY(70px);
 }
 section .blog-felt {
-  padding-top: 70px;
   width: 75%;
   border: 1px solid #000;
   margin-bottom: 10px;
@@ -97,14 +96,17 @@ section .blog-felt {
   margin-right: auto;
   padding: 5px;
 }
+section .thumbnail {
+  width: 100%;
+}
 
 footer {
   display: block;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  position: fixed;
-  z-index: -1000;
+  position: static;
+  bottom: 0;
   background-color: #000;
   color: #FFF;
   width: 100%;
@@ -118,4 +120,25 @@ footer {
   display: flex;
   width: 33%;
   text-align: center;
+}
+
+#respond {
+  width: 500px;
+}
+#respond .comment-form-comment {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+#respond p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }

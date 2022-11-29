@@ -20,7 +20,6 @@ body{
 section {
   transform: translateY(70px);
   .blog-felt {
-    padding-top: 70px;
     width:75%;
     border:1px solid #000;
     margin-bottom: 10px;
@@ -28,5 +27,8 @@ section {
     margin-right: auto;
     padding: 5px;
 
+  }
+  .thumbnail {
+    width: 100%;
   }
 }

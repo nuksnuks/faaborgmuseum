@@ -1,9 +1,8 @@
 footer {
   display: block;
   justify-content:center;
-  position: fixed;
-  z-index:-1000;
-
+  position: static;
+  bottom: 0 ;
   background-color: #000;
   color: #FFF;
   width: 100%;
@@ -12,6 +11,5 @@ footer {
 }
 .kolonne {
   display: flex;
-  width: 33%;
-  text-align: center;
+  width: 33%;  text-align: center;
 }

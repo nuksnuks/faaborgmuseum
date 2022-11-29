@@ -1,0 +1,11 @@
+#respond{
+  width: 500px;
+  .comment-form-comment {
+    display:flex;
+    justify-content: space-between;
+  }
+  p {
+    display:flex;
+    flex-direction: column;
+  }
+}

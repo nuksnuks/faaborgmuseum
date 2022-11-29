@@ -42,6 +42,7 @@ function nd_dosth_register_sidebars() {
 add_action( 'widgets_init', 'nd_dosth_register_sidebars' );
 // menu og widget valgmulighed til wordpress
 add_theme_support('menus');
+add_theme_support('post-thumbnails');
 add_theme_support( 'widgets' );
 // referer til menu fra header.php
 register_nav_menus(
@@ -50,3 +51,7 @@ register_nav_menus(
     'mobil-menu'=>'Mobilmenu'
   )
 );
+
+//Custom billede størrelser
+add_image_size('blog-large', 800, 400,false);
+add_image_size('blog-small',300,200,true);
