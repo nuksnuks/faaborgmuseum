@@ -1,14 +1,8 @@
 <?php wp_footer();?>
 <footer>
-  <div class="kolonne">
-    <p>1. kolonne</p>
-  </div>
-  <div class="kolonne">
-<p>2. kolonne</p>
-  </div>
-  <div class="kolonne">
-<p>3. kolonne</p>
-  </div>
+  <?php if( is_active_sidebar('min-sidebar') ) : ?>
+    <?php dynamic_sidebar('min-sidebar'); ?>
+  <?php endif;?>
 </footer>
 </body>
 </html>

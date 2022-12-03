@@ -61,7 +61,7 @@ class Requests_Cookie_Jar implements ArrayAccess, IteratorAggregate {
 	 * @return boolean Does the item exist?
 	 */
 	public function offsetExists($key) {
-		return isset($this->cookies[$key]);
+		return ($this->cookies[$key]);
 	}
 
 	/**

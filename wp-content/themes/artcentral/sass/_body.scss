@@ -19,13 +19,34 @@ body{
 }
 section {
   transform: translateY(70px);
+
+  h1 {
+    width:75%;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+  .container{
+
+  }
   .blog-felt {
+    display:flex;
     width:75%;
     border:1px solid #000;
     margin-bottom: 10px;
     margin-left: auto;
     margin-right: auto;
-    padding: 5px;
+    img{
+      max-width: 100px;
+      min-width: 100px;
+      min-height:100%;
+      object-fit: cover;
+
+    }
+    .blog-container{
+      padding: 5px 5px 5px 10px;
+
+    }
 
   }
   .thumbnail {
