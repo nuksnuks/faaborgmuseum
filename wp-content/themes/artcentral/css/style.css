@@ -69,6 +69,17 @@ ul {
   display: block;
 }
 
+.container {
+  margin-right: 10%;
+  margin-left: 10%;
+  padding-top: 15%;
+}
+
+.wp-block-media-text__content {
+  -webkit-transform: translateX(-8%);
+          transform: translateX(-8%);
+}
+
 * {
   margin: 0;
 }
@@ -87,6 +98,16 @@ body {
   -webkit-transform: translateY(-100px);
           transform: translateY(-100px);
   text-align: left;
+}
+
+.container :not(.hero-video) {
+  margin-right: 10%;
+  margin-left: 10%;
+}
+
+.wp-block-media-text__content {
+  -webkit-transform: translateX(-8%);
+          transform: translateX(-8%);
 }
 
 section {
