@@ -7,14 +7,16 @@
     <?php wp_head();?>
   </head>
   <body>
-
     <header>
-<!--<img src=">< ?php the_post_thumbnail_url();?>" alt="" class="logo">-->
       <?php
+      //logo
+      if( is_active_sidebar('logo-sidebar') ) : dynamic_sidebar('logo-sidebar');
+      endif;
+
+      //menu
       wp_nav_menu(
-        array(
-          'theme_location'=> 'menu'
-        )
+        array( 'theme_location'=> 'menu' )
       );
       ?>
+
     </header>

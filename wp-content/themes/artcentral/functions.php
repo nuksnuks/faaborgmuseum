@@ -45,3 +45,15 @@ function my_sidebars() {
   );
 }
 add_action('widgets_init','my_sidebars');
+//header widget til logo
+function logo_widget() {
+  register_sidebar(
+    array(
+      'name'=> 'logo sidebar',
+      'id' => 'logo-sidebar',
+      'before_title'  => '<h3 class="logo-widget">',
+      'after_title' => '</h3>'
+    )
+  );
+}
+add_action('widgets_init','logo_widget');

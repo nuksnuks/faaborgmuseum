@@ -1,5 +1,4 @@
 header {
-
   height: 70px;
   width: 100vw;
   background-color: #6E4445;
@@ -18,8 +17,11 @@ header {
       -ms-flex-pack: center;
           justify-content: center;
   list-style: none;
-  padding-top: 20px;
+  padding-top: 10px;
   font-family: ligurino, sans-serif;
+  .searchbar{
+    display: flex;
+  }
 }
 .menu a {
   weight:bold;
