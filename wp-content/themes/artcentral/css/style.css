@@ -69,13 +69,11 @@ ul {
   display: block;
 }
 
-/*
 .container {
   margin-right: 10%;
   margin-left: 10%;
   padding-top: 15%;
 }
-*/
 
 .wp-block-media-text__content {
   -webkit-transform: translateX(-8%);
@@ -111,10 +109,6 @@ body {
 .wp-block-media-text__content {
   -webkit-transform: translateX(-8%);
           transform: translateX(-8%);
-}
-
-.wp-block-cover > img{
-  transform: translateX(-10%);
 }
 
 section {
