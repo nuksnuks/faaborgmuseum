@@ -7,7 +7,7 @@
     <?php wp_head();?>
   </head>
   <body>
-    <header>
+    <header id="menustylingsanker">
       <?php
       //logo
       if( is_active_sidebar('logo-sidebar') ) : dynamic_sidebar('logo-sidebar');
