@@ -112,6 +112,9 @@ body {
   -webkit-transform: translateX(-8%);
           transform: translateX(-8%);
 }
+.wp-block-cover > img{
+  transform: translateX(-10%);
+}
 
 section {
   -webkit-transform: translateY(70px);
