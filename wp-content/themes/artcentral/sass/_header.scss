@@ -67,6 +67,9 @@ ul{
   transform:translateY(-20px);
   float: right;
   z-index:99999999999999;
+  label {
+    color: white;
+  }
   input {
     border: none;
   }

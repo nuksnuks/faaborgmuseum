@@ -72,6 +72,9 @@ ul {
   float: right;
   z-index: 99999999999999;
 }
+.searchbar label {
+  color: white;
+}
 .searchbar input {
   border: none;
 }
