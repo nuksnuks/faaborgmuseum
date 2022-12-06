@@ -76,9 +76,12 @@ ul {
   color: white;
 }
 .searchbar input {
+  display: none;
   border: none;
+  width: 50px;
 }
 .searchbar button {
+  display: none;
   border: none;
 }
 
@@ -111,9 +114,6 @@ body {
 .wp-block-media-text__content {
   -webkit-transform: translateX(-8%);
           transform: translateX(-8%);
-}
-.wp-block-cover > img{
-  transform: translateX(-10%);
 }
 
 section {

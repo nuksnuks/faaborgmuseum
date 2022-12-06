@@ -71,9 +71,12 @@ ul{
     color: white;
   }
   input {
+    display: none;
     border: none;
+    width:50px;
   }
   button {
+    display: none;
     border: none;
   }
 }
