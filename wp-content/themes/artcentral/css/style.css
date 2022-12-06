@@ -17,6 +17,14 @@ header {
   padding-top: 10px;
   font-family: ligurino, sans-serif;
 }
+.menu a {
+  weight: bold;
+  color: #fff;
+  text-decoration: none;
+  margin-right: 10px;
+  position: relative;
+  display: inline-block;
+}
 
 .menu a {
   weight: bold;
@@ -74,6 +82,7 @@ ul {
 }
 .searchbar label {
   color: white;
+  cursor: pointer;
 }
 .searchbar input {
   display: none;

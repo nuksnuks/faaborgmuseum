@@ -3,8 +3,7 @@ const searchbar = document.getElementById('searchbar');
 const button = document.getElementById('searchbutton');
 
 function expand(){
-  searchbar.style.display = block;
-  button.style.display = block;
+  alert("what dafuq");
 }
 
 label.addEventListener('click', expand);
