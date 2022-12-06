@@ -76,9 +76,12 @@ ul {
   color: white;
 }
 .searchbar input {
+  display: none;
   border: none;
+  width: 50px;
 }
 .searchbar button {
+  display: none;
   border: none;
 }
 
