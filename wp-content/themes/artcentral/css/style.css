@@ -103,7 +103,18 @@ body {
   text-align: left;
 }
 
+.container :not(.hero-video) {
+  margin-right: 10%;
+  margin-left: 10%;
+}
 
+.wp-block-media-text__content {
+  -webkit-transform: translateX(-8%);
+          transform: translateX(-8%);
+}
+.wp-block-cover > img{
+  transform: translateX(-10%);
+}
 
 section {
   -webkit-transform: translateY(70px);
