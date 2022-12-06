@@ -1,13 +1,12 @@
 * {
   margin: 0;
-
 }
 body{
     background-color: #ffa100;
     font-family: ligurino, sans-serif;
     weight:normal;
     height:10000px;
-    
+    position: absolute;
 }
 
 .wp-block-cover{
@@ -19,7 +18,10 @@ body{
   text-align: left;
 }
 }
-
+.container :not(.hero-video){
+  margin-right: 10%;
+  margin-left: 10%;
+}
 .wp-block-media-text__content{
   transform: translateX(-8%);
 }
