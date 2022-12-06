@@ -37,6 +37,7 @@ define( 'DB_CHARSET', 'utf8mb4' );
 /** The database collate type. Don't change this if in doubt. */
 define( 'DB_COLLATE', '' );
 
+
 /**#@+
  * Authentication unique keys and salts.
  *
@@ -82,7 +83,8 @@ $table_prefix = 'wp_';
 define( 'WP_DEBUG', true );
 
 /* Add any custom values between this line and the "stop editing" line. */
-
+define('WP_HOME', 'http://localhost/faaborgmuseum/');
+define('WP_SITEURL', 'http://localhost/faaborgmuseum/');
 
 
 /* That's all, stop editing! Happy publishing. */

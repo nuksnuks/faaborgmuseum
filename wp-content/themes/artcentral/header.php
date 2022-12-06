@@ -17,6 +17,9 @@
       wp_nav_menu(
         array( 'theme_location'=> 'menu' )
       );
+
+      //søgebar
+      get_search_form();
       ?>
 
     </header>
