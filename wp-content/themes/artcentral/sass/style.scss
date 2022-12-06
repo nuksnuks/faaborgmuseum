@@ -1,6 +1,20 @@
-@use "_header.scss";
-@use "_body.scss";
-@use "_footer.scss";
-@use "_comments.scss";
-@use "_widgets.scss";
-
+#respond {
+  width: 500px;
+}
+#respond .comment-form-comment {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+#respond p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
