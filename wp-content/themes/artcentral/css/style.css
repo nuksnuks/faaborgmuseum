@@ -128,7 +128,7 @@ section .blog-felt img {
      object-fit: cover;
 }
 section .blog-felt .blog-container {
-  padding: 5px 5px 5px 10px;
+  padding: 5px 0px 5px 10px;
 }
 section .thumbnail {
   width: 100%;
