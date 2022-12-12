@@ -5,7 +5,6 @@ header {
   position: fixed;
   z-index: 1000000;
 }
-
 .menu {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -14,8 +13,7 @@ header {
   -ms-flex-pack: center;
   justify-content: center;
   list-style: none;
-  padding-top: 10px;
-  font-family: ligurino, sans-serif;
+  padding-top: 5px;
 }
 
 .menu a {

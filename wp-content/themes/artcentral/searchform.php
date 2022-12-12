@@ -1,4 +1,4 @@
-<form action="/faaborgmuseum/" method="get" class="searchbar">
+<form action="/" method="get" class="searchbar">
   <div id="searchbar-container">
   <label for="search" id="searchlabel">Søg</label>
 

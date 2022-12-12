@@ -7,9 +7,9 @@
         <?php endif;?>
       </div>
       <div class="blog-container">
-      <h3><?php the_title();?></h3><br>
-      <?php the_excerpt(); ?><br>
-      <a href="<?php the_permalink();?>">Læs mere</a><br>
+        <h3><?php the_title();?></h3><br>
+        <?php the_excerpt(); ?><br>
+        <a href="<?php the_permalink();?>">Læs mere</a><br>
     </div>
   </div>
 <?php endwhile; else: endif;?>

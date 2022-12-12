@@ -6,6 +6,7 @@ function load_js() {
 }
 add_action('wp_enqueue_scripts','load_js');
 
+
 //loader css'en
 function load_css() {
   wp_register_style('style',get_template_directory_uri(). '/css/style.css',array(),false,'all');
@@ -58,3 +59,16 @@ function logo_widget() {
   );
 }
 add_action('widgets_init','logo_widget');
+
+//registrer widget overlay
+function my_video() {
+  register_sidebar(
+    array(
+      'name'=> 'Video Sidebar',
+      'id' => 'video-sidebar',
+      'before_title'  => '<h3>',
+      'after_title' => '</h3>'
+    )
+  );
+};
+add_action('widgets_init','my_video');

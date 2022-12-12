@@ -1,4 +1,8 @@
- <?php get_header(); ?>
+ <?php get_header();
+ if( is_active_sidebar('video-sidebar') ) : dynamic_sidebar('video-sidebar');
+ endif;
+ ?>
+
 
 <section class="indhold">
 <div class="container">
