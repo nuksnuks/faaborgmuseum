@@ -35,3 +35,15 @@ function changecolor(){
 }
 
 window.addEventListener('scroll', changecolor);
+
+function changebackground(){
+  background = document.getElementsByTagName('section');
+  if(scrollY>540){
+    document.body.style.backgroundColor = '#FFFFFF';
+  }
+  else{
+    document.body.style.backgroundColor = '#f5a021';
+  }
+}
+
+window.addEventListener('scroll', changebackground);

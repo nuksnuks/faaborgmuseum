@@ -17,13 +17,10 @@ header {
     }
     }
   .menu {
-
     display: flex;
     list-style: none;
-
   }
   .menu a {
-    weight:bold;
     color: #fff;
     text-decoration: none;
     margin-right: 10px;
@@ -64,10 +61,10 @@ header {
 label {
   font-family: arial,sans-serif;
   color: black;
+  border-radius: .5rem;
   cursor: pointer;
   background-color: #ffffff;
   padding: 3px 6px 3px 6px;
-  border-radius:2px;
   font-size: 18px;
   height: 28px;
   width:46px;
@@ -75,12 +72,13 @@ label {
   }
 input {
   height:22px;
+  border-radius:1.5rem;
   }
 button {
   font-size: 18px;
   float:right;
   transform: translateY(-28px);
   border: 1px solid;
-  border-radius: 3px;
+  border-radius: .5rem;
   height: 28px;
   }
